@@ -26,6 +26,7 @@ Low Latency – Implements a streamlined data flow with minimal computational de
 MSDAP is an innovative alternative to power-hungry DSP chips, offering high-performance digital audio processing while minimizing hardware complexity and power consumption. 
 
 
+
 Key Deliverables:
 
 A. MSDAP Algorithm implementation in C++:
