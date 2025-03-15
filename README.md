@@ -28,7 +28,7 @@ MSDAP is an innovative alternative to power-hungry DSP chips, offering high-perf
 
 Key Deliverables:
 
-1. MSDAP Algorithm implementation in C++:
+A. MSDAP Algorithm implementation in C++:
    
 This gives the implementation of a Fixed-Point FIR (Finite Impulse Response) Filter using C/C++. It was developed as part of the Application-Specific Integrated Circuit (ASIC) Design course at The University of Texas at Dallas (EEDG 6306).
 
@@ -48,7 +48,7 @@ Outputs 40-bit fixed-point results in hexadecimal format (output.out).
 
 
 
-2.MSDAP FSM Implementation in Verilog:
+B. MSDAP FSM Implementation in Verilog:
 
 The goal of this part of the project is to design and implement a Finite State Machine (FSM) for the Mini Stereo Digital Audio Processing (MSDAP) chip. This FSM controls the flow of audio data through different stages, including initialization, data reception, processing, and output generation, ensuring precise synchronization and efficient power management.
 
@@ -78,7 +78,7 @@ Testbench & Verification:
 A testbench generates input signals, drives FSM state transitions, and verifies output using simulation waveforms.
 
 
-3. MSDAP Architecture design:
+C. MSDAP Architecture design:
    
 This part of the project explains the architecture of MSDAP. 
 
@@ -116,7 +116,7 @@ Converts processed parallel 40-bit data back into serial format.
 Ensures proper synchronization before output transmission.
 
 
-4. MSDAP Final Design:
+D. MSDAP Final Design:
 
 Key goals of the final design:
 
